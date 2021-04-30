@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Music Controller</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/addons/p5.sound.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+<body background="https://image.freepik.com/free-photo/modern-white-brick-wall-texture-background_41389-408.jpg">
+<center>
+    <div class="p-3 mb-2 bg-dark text-white heading">AI VIDEO WEB-APP
+    <br>
+    <span class="note">Note: Move your left wrist up & down to control volume. Move your right wrist up &down to control speed</span></div>
+    <div id="speed">
+        <img src="Image20210428193554.gif"class="image"><br>
+        <h3 class="btn btn-outline-warning sp">SPEED</h3>
+    </div>
+    <div id="volume">
+        <img id="vgif"src="Image20210428193626.gif"><br>
+        <h3 class="btn btn-outline-warning vol">VOLUME</h3>
+    </div>
+    <br>
+    <button onclick="play()"class="btn btn-outline-warning playbt">PLAY▶</button><br>
+</center>
+<script src="main.js"></script>
+</body>
+</html>
